@@ -1,0 +1,2 @@
+Plugin 'auxiliary/vim-layout'
+

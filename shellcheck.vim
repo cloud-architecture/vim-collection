@@ -1,4 +1,3 @@
-" shellcheck
 if (&ft=='sh' || &ft=='bash')
   set makeprg=shellcheck\ -f\ gcc\ %
   au BufWritePost * :silent make | redraw!
